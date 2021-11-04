@@ -58,7 +58,7 @@ try:
         mount_point = GetParams("mount_point")
         
         result = vaultClient_I.read_secret(path, mount_point)
-        
+        result = result["data"]
         whereToStore = GetParams("whereToStore")
         SetVar(whereToStore, result)
 
