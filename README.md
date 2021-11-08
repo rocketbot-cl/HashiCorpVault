@@ -35,6 +35,9 @@ Send a request to delete secrets stored in HashiCorp Vault
 ### OS
 
 - windows
+- mac
+- linux
+- docker
 
 ### Dependencies
 - [**hvac**](https://pypi.org/project/hvac/)
